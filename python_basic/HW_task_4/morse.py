@@ -83,4 +83,4 @@ def decode(morse_message: str) -> str:
 
 
 if __name__ == "__main__":
-    pass
+    print(encode("MAMAPAPAYAYA"))
