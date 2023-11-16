@@ -22,4 +22,12 @@ Unittest тестирование запускается при помощи т�
 python -m unittest -v tests/test_ohe_unittest.py
 ```
 
+## 4
+
+Pytest тестирование запускается при помощи такой команды:
+
+```commandline
+python -m pytest -v tests/test_ohe_pytest.py
+```
+
 
