@@ -1,0 +1,19 @@
+============================= test session starts =============================
+platform win32 -- Python 3.8.8, pytest-6.2.3, py-1.10.0, pluggy-0.13.1 -- C:\Users\pwx980626\Anaconda3\python.exe
+cachedir: .pytest_cache
+rootdir: D:\AAA_2023\python_basic\HW_task_4
+plugins: anyio-2.2.0, hydra-core-1.1.1
+collecting ... collected 4 items
+
+tests/test_ohe_pytest.py::test_empty_input PASSED                        [ 25%]
+tests/test_ohe_pytest.py::test_single_word PASSED                        [ 50%]
+tests/test_ohe_pytest.py::test_multiple_words_as_list PASSED             [ 75%]
+tests/test_ohe_pytest.py::test_wrong_input PASSED                        [100%]
+
+============================== warnings summary ===============================
+C:\Users\pwx980626\Anaconda3\lib\site-packages\pyreadline\py3k_compat.py:8
+  C:\Users\pwx980626\Anaconda3\lib\site-packages\pyreadline\py3k_compat.py:8: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.9 it will stop working
+    return isinstance(x, collections.Callable)
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+======================== 4 passed, 1 warning in 0.05s =========================
